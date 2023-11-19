@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trafic Transport Surete </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- start Header section -->
+    <header class="header">
+        <!-- <div class="header__inner"> -->
+        <div class="header__container container">
+            <div class="header__brand">
+                <a class="header__logo__link" href="#">
+                    <img src="assets/images/logo.svg" alt="" class="header__logo__img">
+                </a>
+                <div class="header__menu__icon">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M16.333 16.3333H21.6663V21.6666H16.333V16.3333ZM8.33301 16.3333H13.6663V21.6666H8.33301V16.3333ZM0.333008 16.3333H5.66634V21.6666H0.333008V16.3333ZM16.333 8.33331H21.6663V13.6666H16.333V8.33331ZM8.33301 8.33331H13.6663V13.6666H8.33301V8.33331ZM0.333008 8.33331H5.66634V13.6666H0.333008V8.33331ZM16.333 0.333313H21.6663V5.66665H16.333V0.333313ZM8.33301 0.333313H13.6663V5.66665H8.33301V0.333313ZM0.333008 0.333313H5.66634V5.66665H0.333008V0.333313Z"
+                            fill="fff"></path>
+                    </svg>
+                    <svg height="22" width="24" viewBox="0 0 24 22" fill="white">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__menu__items text-semibold text-uppercase text-13">
+                    <li class="header__menu__item">
+                        <a class="header__menu__link" href="about.html">
+                            QUI SOMMES-NOUS
+                        </a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a class="header__menu__link" href="services.html">
+                            NOS SERVICES
+                        </a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a class="header__menu__link" href="read-news.html">
+                            ACTUALITÉS
+                        </a>
+                    </li> 
+                    
+                    <li class="header__menu__item">
+                        <a class="header__menu__link" href="#">
+                            NOUS CONTACTER
+                        </a>
+                    </li>
+                    <li class="header__menu__item d-lg-none d-xl-flex align-items-center justify-content-end">
+                        <div class="d-lg-none d-flex justify-content-between align-items-center">
+                            <a href="#">
+                                <img src="assets/images/icons/linkedin.svg" alt="">
+                            </a>
+                            <a href="#" class="text-white">
+                                <span>Language: FR <img src="assets/images/icons/angle-down.svg" alt=""> </span>
+                            </a>
+                        </div>
+                        <a href="#" class="d-none d-xl-block">
+                            <img src="assets/images/icons/flag.svg" alt="">
+                            FR
+                        </a>
+                    </li>
+                </ul>
+                <!-- <div class="header_language" style="display: none;">
+                    <a href="#">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="#000">
+                            <path fill-rule="evenodd"
+                                d="M0.708008 2.01026C0.708008 1.66497 0.845174 1.33382 1.08933 1.08967C1.33349 0.845511 1.66464 0.708345 2.00993 0.708345H14.988C15.1591 0.708066 15.3286 0.74154 15.4868 0.806851C15.6449 0.872162 15.7887 0.968027 15.9097 1.08896C16.0308 1.20989 16.1268 1.35351 16.1923 1.5116C16.2578 1.66969 16.2914 1.83915 16.2913 2.01026V14.9883C16.2915 15.1595 16.258 15.329 16.1926 15.4872C16.1272 15.6453 16.0313 15.7891 15.9103 15.9101C15.7893 16.0312 15.6456 16.1272 15.4875 16.1926C15.3294 16.2581 15.1599 16.2918 14.9887 16.2917H2.00993C1.8389 16.2917 1.66954 16.258 1.51154 16.1925C1.35354 16.127 1.20998 16.0311 1.08908 15.9101C0.968177 15.7891 0.872293 15.6455 0.806907 15.4875C0.741521 15.3295 0.707915 15.1601 0.708008 14.9891V2.01026ZM6.87618 6.64985H8.9863V7.70951C9.29088 7.10035 10.0701 6.5521 11.2409 6.5521C13.4856 6.5521 14.0176 7.76547 14.0176 9.99176V14.1157H11.746V10.4989C11.746 9.23101 11.4414 8.5156 10.6679 8.5156C9.59476 8.5156 9.14851 9.28697 9.14851 10.4989V14.1157H6.87618V6.64985ZM2.98034 14.0186H5.25268V6.5521H2.98034V14.0179V14.0186ZM5.5778 4.11685C5.58209 4.31141 5.54746 4.50486 5.47597 4.68586C5.40448 4.86686 5.29755 5.03175 5.16146 5.17087C5.02538 5.30998 4.86288 5.42051 4.6835 5.49598C4.50412 5.57144 4.31147 5.61031 4.11686 5.61031C3.92226 5.61031 3.72961 5.57144 3.55023 5.49598C3.37085 5.42051 3.20835 5.30998 3.07226 5.17087C2.93618 5.03175 2.82925 4.86686 2.75776 4.68586C2.68626 4.50486 2.65164 4.31141 2.65593 4.11685C2.66433 3.73495 2.82195 3.37153 3.09501 3.10442C3.36807 2.8373 3.73488 2.68772 4.11686 2.68772C4.49885 2.68772 4.86565 2.8373 5.13872 3.10442C5.41178 3.37153 5.56939 3.73495 5.5778 4.11685Z"
+                                fill="#000" />
+                        </svg>
+                    </a>
+                    <div>
+                        <span>
+                            Language: FR <svg height="24" width="24" viewBox="0 0 24 24">
+                                <path d="M12,15.7L5.6,9.4l0.7-0.7l5.6,5.6l5.6-5.6l0.7,0.7L12,15.7z"></path>
+                            </svg>
+                        </span>
+                        <a href="#">English</a>
+                    </div>
+                </div> -->
+            </nav>
+        </div>
+        <!-- </div> -->
+    </header>
+    <!-- end Header section -->
+
+    <!-- start Homepage Banner section -->
+    <section class="banner banner--about">
+        <div class="banner__item">
+            <div class="container">
+                <div class="banner__content mx-auto text-center text-white">
+                    <h3 class="text-bold text-45">
+                        Trafic Transport Sûreté, 30 ans d’expériences
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Homepage Banner section -->
+
+    <section class="trafic-transport-surete">
+        <div class="container">
+            <h2>
+                Trafic <br> Transport <br> <span class="text-skydark">Sûreté.</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-6 pe-lg-4">
+                    <div>
+                        <p class="text-24 text-bold mb-4">Trafic Transport Sûreté est un intégrateur de solutions
+                            globales de
+                            sûreté spécialisé en Contrôle d'accès, Vidéoprotection et Anti-intrusion.</p>
+                        <p class="text-20 mb-4">
+                            TTS est une société française indépendante, intégrateur de solutions globales de sûreté.
+                        </p>
+                        <p class="text-20">
+                            Nous adressons des projets complexes de sûreté (vidéoprotection, contrôle d'accès,
+                            anti-intrusion) et proposons nos solutions à des clients de toute taille, dans le monde du
+                            tertiaire (sièges sociaux, agences, bureaux...), du trafic (tunnels, ponts, autoroutes...),
+                            du transport (gares, métro, tram...) et des villes (CHU, stades...)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 ps-lg-4">
+                    <div>
+                        <p class="text-20 mb-4">
+                            Les équipes de TTS (chefs de projets, ingénieurs d’affaires, ingénieurs développement et
+                            techniciens spécialistes) sont au <span class="text-bold">service de vos projets.</span>
+                        </p>
+                        <p class="text-20 mb-4">
+                            Nous intégrons des solutions logicielles sur mesure adaptées à vos besoins, dans les
+                            domaines de la sécurité routière, urbaine et tertiaire, en France et à l'étranger.
+                        </p>
+                        <p class="text-20">
+                            Fort de son expérience de plus de 30 ans, Trafic Transport Sûreté, est leader depuis de
+                            nombreuses années dans les solutions intégrées en Contrôle d'Accès, Vidéoprotection et
+                            Anti-intrusion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-counter">
+        <div class="container">
+            <div class="row counter">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="text-skydark text-bold mb-0">
+                            1541
+                        </h2>
+                        <p class="text-17 text-bold text-uppercase text-skydark">
+                            solutions déployées dans le monde
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="text-skydark text-bold mb-0">
+                            27
+                        </h2>
+                        <p class="text-17 text-bold text-uppercase text-skydark">
+                            COLLABORATEURS À VOTRE SERVICE
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="text-skydark text-bold mb-0">
+                            30
+                        </h2>
+                        <p class="text-17 text-bold text-uppercase text-skydark">
+                            ANS D’EXPÉRIENCES SUR LE SECTEUR
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="predictive-solutions">
+        <div class="container text-center">
+            <a href="#">
+                <img src="assets/images/logo.svg" alt="">
+            </a>
+            <h2>
+                <span class="text-white">
+                    Vers des solutions
+                </span> prédictives
+            </h2>
+            <a href="#" class="button button--white">
+                CONTACTER UN EXPERT
+            </a>
+        </div>
+    </section>
+
+    <section class="our-history">
+        <div class="container">
+            <h2>
+                Notre <br>
+                <span class="text-skydark">histoire.</span>
+            </h2>
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="history-item position-relative">
+                        <div class="position-absolute">
+                            <img src="assets/images/icons/history-icon.svg" alt="">
+                        </div>
+                        <h4 class="text-uppercase text-semibold text-skydark text-16">
+                            ANNÉE 80
+                        </h4>
+                        <p class="text-14">
+                            Praesent sapien massa, <span class="text-bold">
+                                convallis a pellentesque
+                            </span> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                        </p>
+                    </div>
+                    <div class="history-item position-relative">
+                        <div class="position-absolute">
+                            <img src="assets/images/icons/history-icon.svg" alt="">
+                        </div>
+                        <h4 class="text-uppercase text-semibold text-skydark text-16">
+                            2001
+                        </h4>
+                        <p class="text-14">
+                            Praesent sapien massa, <span class="text-bold">
+                                convallis a pellentesque
+                            </span> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                        </p>
+                    </div>
+                    <div class="history-item position-relative">
+                        <div class="position-absolute">
+                            <img src="assets/images/icons/history-icon.svg" alt="">
+                        </div>
+                        <h4 class="text-uppercase text-semibold text-skydark text-16">
+                            2002
+                        </h4>
+                        <p class="text-14">
+                            Praesent sapien massa, <span class="text-bold">
+                                convallis a pellentesque
+                            </span> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                        </p>
+                    </div>
+                    <div class="history-item position-relative">
+                        <div class="position-absolute">
+                            <img src="assets/images/icons/history-icon.svg" alt="">
+                        </div>
+                        <h4 class="text-uppercase text-semibold text-skydark text-16">
+                            MARS 2010
+                        </h4>
+                        <p class="text-14">
+                            Praesent sapien massa, <span class="text-bold">
+                                convallis a pellentesque
+                            </span> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                        </p>
+                    </div>
+                    <div class="history-item position-relative">
+                        <div class="position-absolute">
+                            <img src="assets/images/icons/history-icon.svg" alt="">
+                        </div>
+                        <h4 class="text-uppercase text-semibold text-skydark text-16">
+                            DÉCEMBRE 2010
+                        </h4>
+                        <p class="text-14">
+                            Praesent sapien massa, <span class="text-bold">
+                                convallis a pellentesque
+                            </span> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xl-6">
+                    <div class="history-images ps-lg-4 ps-xl-0">
+                        <img src="assets/images/history/1.jpg" alt="">
+                        <img src="assets/images/history/2.jpg" alt="">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="assets/images/history/3.jpg" alt="">
+                            <img src="assets/images/history/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <footer>
+        <div class="container d-xl-flex justify-content-between align-items-center">
+            <a href="#" class="footer__logo">
+                <img src="assets/images/footer-logo.svg" alt="">
+            </a>
+            <nav class="d-flex flex-column flex-lg-row align-items-center">
+                <ul class="d-lg-flex order-1 order-lg-0">
+                    <li>
+                        <a href="#">
+                            QUI SOMMES-NOUS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            NOS SERVICES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ACTUALITÉS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            RECRUTEMENT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            CONTACTER
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="button button--white subscribe-button  d-inline-flex align-items-center">
+                        S’ABONNER À LA NEWSLETTER
+                    </a>
+                    <a href="#" class="button button--white ms-3 d-inline-flex align-items-center">
+                        <img src="assets/images/icons/flag.svg" alt="">
+                        <span class="text-9 ms-1">FR</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p class="text-white">
+                    Trafic Transport Sûreté est membre de l'AN2V | Trafic Transport Sureté - Tous droits réservés | Made
+                    with love by hdxproduction.fr
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
